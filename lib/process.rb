@@ -1,7 +1,6 @@
 require 'json'
 
 module ProcessData
-
     def process_books(data)
         books = JSON.parse(data)["items"]
         books.map do |book|
@@ -12,5 +11,4 @@ module ProcessData
             }
         end
     end
-
 end
