@@ -1,0 +1,393 @@
+{
+ "kind": "books#volumes",
+ "totalItems": 2768,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "RJxWIQOvoZUC",
+   "etag": "lqE8fOwdERg",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/RJxWIQOvoZUC",
+   "volumeInfo": {
+    "title": "Flowers",
+    "authors": [
+     "Gail Saunders-Smith"
+    ],
+    "publisher": "Capstone",
+    "publishedDate": "1998",
+    "description": "Simple text and photographs depict the parts of flowers and their pollination.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "1560657693"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9781560657699"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 24,
+    "printType": "BOOK",
+    "categories": [
+     "Juvenile Nonfiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.3.1.0.preview.1",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=RJxWIQOvoZUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=RJxWIQOvoZUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=RJxWIQOvoZUC&printsec=frontcover&dq=flowers&hl=&cd=1&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=RJxWIQOvoZUC&dq=flowers&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Flowers.html?hl=&id=RJxWIQOvoZUC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=RJxWIQOvoZUC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Simple text and photographs depict the parts of flowers and their pollination."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "A3WHDwAAQBAJ",
+   "etag": "1T4/jkPdWOs",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/A3WHDwAAQBAJ",
+   "volumeInfo": {
+    "title": "On Flowers",
+    "subtitle": "Lessons from an Accidental Florist",
+    "authors": [
+     "Amy Merrick"
+    ],
+    "publisher": "Artisan Books",
+    "publishedDate": "2019-10-15",
+    "description": "A singular, personal celebration of the beauty and possibilities of nature Amy Merrick is a rare and special kind of artist who uses flowers to help us see the familiar in a completely new way. Her gift is to revel in the unexpected—like a sunny spring arrangement housed in a paper coffee cup—and to overturn preconceptions, whether she’s transforming a bouquet of supermarket carnations into a breathtaking centerpiece or elevating wild and weedy blooms foraged from city sidewalks. She uses the beauty that is waiting to be discovered all around us—in leaves, branches, seedpods, a fallen blossom—to tell a story of time and place. Merrick begins On Flowers with a primer containing all her hard-won secrets on the art of flower arranging, from selecting materials to mastering pleasing proportions. Then she brings readers along on her journey, with observations on flowers in New York City and at her family’s summer home in rural New Hampshire, working on a flower farm off the coast of Washington State, and studying ikebana in a jewel-box flower shop in Kyoto. We learn how to send flowers like a florist, and how to arrange them like a farm girl. We discover the poignancy in humble wildflowers, and also celebrate the luxury of fragrant blousy blooms. Collected here is an anthology of floral inspiration, a love letter to nature by an exceptional, accidental florist.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781579659493"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1579659497"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 240,
+    "printType": "BOOK",
+    "categories": [
+     "Crafts & Hobbies"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.2.1.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=A3WHDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=A3WHDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=A3WHDwAAQBAJ&printsec=frontcover&dq=flowers&hl=&cd=2&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=A3WHDwAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=A3WHDwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 19.95,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 9.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=A3WHDwAAQBAJ&rdid=book-A3WHDwAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.995E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 9990000.0,
+       "currencyCode": "USD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/On_Flowers-sample-epub.acsm?id=A3WHDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/On_Flowers-sample-pdf.acsm?id=A3WHDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=A3WHDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "We discover the poignancy in humble wildflowers, and also celebrate the luxury of fragrant blousy blooms. Collected here is an anthology of floral inspiration, a love letter to nature by an exceptional, accidental florist."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "C0GkwwEACAAJ",
+   "etag": "A1vuSUVRmw4",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/C0GkwwEACAAJ",
+   "volumeInfo": {
+    "title": "Bee's Flowers",
+    "subtitle": "Book One",
+    "authors": [
+     "Corlet Dawn"
+    ],
+    "publisher": "Corlet Dawn",
+    "publishedDate": "2019-04-25",
+    "description": "Most everyone has gone to a flower shop and purchased a bouquet or a gift. Not many people take the time to ponder where the flowers are going and the story behind the purchase. Welcome to Bee's Flowers where there is a story behind every bouquet. The place were customer's and owner's lives intertwine. There will be laughter, there will be tears, there will be love, and there will be loss. You'll see how connected we really all can be in a place as simple as a tiny flower shop. Told from multiple points of view, the characters will bring to life all that we utilize flowers for.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "1733829407"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9781733829403"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 288,
+    "printType": "BOOK",
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=C0GkwwEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=C0GkwwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=C0GkwwEACAAJ&dq=flowers&hl=&cd=3&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=C0GkwwEACAAJ&dq=flowers&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Bee_s_Flowers.html?hl=&id=C0GkwwEACAAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=C0GkwwEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Not many people take the time to ponder where the flowers are going and the story behind the purchase. Welcome to Bee&#39;s Flowers where there is a story behind every bouquet. The place were customer&#39;s and owner&#39;s lives intertwine."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "zaRoX10_UsMC",
+   "etag": "JSVCEm7ixP8",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/zaRoX10_UsMC",
+   "volumeInfo": {
+    "title": "Flowers",
+    "authors": [
+     "Paul McEvoy"
+    ],
+    "publisher": "Blake Education",
+    "publishedDate": "2002",
+    "description": "Excellent col. photos, simple clear text, beginning readers. 5-8 yrs.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "1865094595"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9781865094595"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 24,
+    "printType": "BOOK",
+    "categories": [
+     "Angiosperms"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.2.2.0.preview.1",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=zaRoX10_UsMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=zaRoX10_UsMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=zaRoX10_UsMC&printsec=frontcover&dq=flowers&hl=&cd=4&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=zaRoX10_UsMC&dq=flowers&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Flowers.html?hl=&id=zaRoX10_UsMC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=zaRoX10_UsMC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Excellent col. photos, simple clear text, beginning readers. 5-8 yrs."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "atDGvrHpFJAC",
+   "etag": "WHp+BbemL7g",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/atDGvrHpFJAC",
+   "volumeInfo": {
+    "title": "Flowers in the Attic",
+    "authors": [
+     "V.C. Andrews"
+    ],
+    "publisher": "Simon and Schuster",
+    "publishedDate": "2005-08-02",
+    "description": "Chris, Cathy, and the twins are to be kept hidden until their grandfather dies so that their mother will receive a sizeable inheritance, however, years pass and terrifying things occur as the four children grow up in their one room prison.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781416510888"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1416510885"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 389,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 3.5,
+    "ratingsCount": 100,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=atDGvrHpFJAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=atDGvrHpFJAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=atDGvrHpFJAC&printsec=frontcover&dq=flowers&hl=&cd=5&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=atDGvrHpFJAC&dq=flowers&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Flowers_in_the_Attic.html?hl=&id=atDGvrHpFJAC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=atDGvrHpFJAC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Chris, Cathy, and the twins are to be kept hidden until their grandfather dies so that their mother will receive a sizeable inheritance, however, years pass and terrifying things occur as the four children grow up in their one room prison."
+   }
+  }
+ ]
+}
