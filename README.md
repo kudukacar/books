@@ -15,7 +15,7 @@ The User class reads and validates the input from the user, and records the user
 The API module requests data from the Google Books API.  With a separate module, we can easy add functionality as needed (ex. other request types) with minimal impact on the program.   
 
 ### ProcessData
-The ProcessData module converts the response into a hash, and extracts the necessary information.  Again, a separate module gives us the flexibility to change processing with minimal impact on the program.
+The ProcessData module converts the API response into a hash, and extracts the necessary information.  Again, a separate module gives us the flexibility to change processing with minimal impact on the program.
 
 ### Output
 The Output module prints the information to stdout.  Similarly, separating this method gives us the flexibility to change output (ex. output to a file, etc) without changing the structure of the program.

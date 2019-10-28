@@ -55,7 +55,7 @@ class User
     loop do
       puts "Enter the book's number (above title) to add a book to your reading list."
       
-      selection = Integer($stdin.gets.strip) rescue 0
+      selection = Integer($stdin.gets.chomp) rescue 0
 
       if selection.between?(1, total_results)
         return selection

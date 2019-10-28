@@ -222,7 +222,7 @@ describe App do
       end
     end
 
-    context "if the user indicates yes, with search results" do
+    context "with search results, if the user indicates yes to add to reading list" do
       it "prompts the user to add to a reading list, shows the reading list, and prompts for search again" do
         $stdin = StringIO.new("yes\n1.3333333333333333333\nyes\n1\nno\n")
         expect { run }.to output(
