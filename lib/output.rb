@@ -4,7 +4,10 @@ module Output
 
     puts "#{type}\n-----"
     books.each_with_index do |book, i|
-      puts "#{i + 1}\nTitle: #{book["title"]}\nAuthors: #{book["authors"].join(", ")}\nPublisher: #{book["publisher"]}\n-----"
+      title = book["title"]
+      authors = book["authors"] || []
+      publisher = book["publisher"]
+      puts "#{i + 1}\nTitle: #{title}\nAuthors: #{authors.join(", ")}\nPublisher: #{publisher}\n-----"
     end
   end
 end

@@ -1,7 +1,12 @@
-require 'json'
+require "json"
 
 module ProcessData
   def process_books(data)
+    return [] if !data
+
+    total = JSON.parse(data)["totalItems"]
+    return [] if total == 0
+
     books = JSON.parse(data)["items"]
     books.map do |book|
       {
