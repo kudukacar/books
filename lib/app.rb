@@ -1,4 +1,3 @@
-require "dotenv/load"
 require_relative "./user"
 require_relative "./search"
 require_relative "./interface"

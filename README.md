@@ -28,7 +28,7 @@ The Interface module manages the interface with the user - printing and getting 
 The ProcessData module converts the API response into a hash, and extracts the necessary information.  Again, a separate module gives us the flexibility to change processing with minimal impact on the program.
 
 ### Search
-The Search class gets and processes the search results.  Separating this class ensures the App class has only a single responsibility,run the app, making the program more maintainable and easier to test.
+The Search class manages the search and search results.  Separating this class ensures the App class has only a single responsibility,run the app, making the program more maintainable and easier to test.
 
 ### Output
 The Output module prints the information to stdout.  Similarly, separating this method gives us the flexibility to change output (ex. output to a file, etc) without changing the structure of the program.

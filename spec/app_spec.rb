@@ -1,7 +1,5 @@
 require "rspec"
 require "app"
-require "user"
-require "dotenv/load"
 require "stringio"
 
 describe App do
