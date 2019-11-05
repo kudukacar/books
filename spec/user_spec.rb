@@ -11,6 +11,26 @@ describe User do
     end
   end
 
+  describe "#output" do
+    let(:message) { "Please enter a search term." } 
+    it "prints a message to stdout" do
+      expect { user.output(message) }.to output(
+        "Please enter a search term.\n"
+      ).to_stdout
+    end
+  end
+
+  describe "#input" do
+    after(:each) do
+      $stdin = STDIN
+    end
+
+    it "returns the user's stripped response" do
+      $stdin = StringIO.new("yes\n")
+      expect(user.input).to eq("yes")
+    end 
+  end
+
   describe "#query?" do 
     let(:query?) { user.query? }  
     after(:each) do
@@ -176,21 +196,21 @@ describe User do
   end
 
   describe "#append_list" do
-    let(:selected_books) { [{ "title" => "Flowers", "authors" => [], "publisher" => "Capstone" }] }
+    let(:first_selection) { [{ "title" => "Flowers", "authors" => [], "publisher" => "Capstone" }] }
+    let(:second_selection) { [{ "title" => "Flowers in the Attic", "authors" => ["V.C. Andrews"], "publisher" => "Simon and Schuster" }] }
+    before(:each) do
+      user.append_list(first_selection)
+    end
 
     it "adds the selection to the user's reading list" do
-      user.reading_list = [{ "title" => "On Flowers", "authors" => ["Amy Merrick"], "publisher" => nil }]
-      expect(user.append_list(selected_books)).to eq([
-        { "title" => "On Flowers", "authors" => ["Amy Merrick"], "publisher" => nil }, 
-        { "title" => "Flowers", "authors" => [], "publisher" => "Capstone" }
+      expect(user.append_list(second_selection)).to eq([
+        { "title" => "Flowers", "authors" => [], "publisher" => "Capstone" },
+        { "title" => "Flowers in the Attic", "authors" => ["V.C. Andrews"], "publisher" => "Simon and Schuster" }
       ])
     end
 
     it "does not add duplicates to the user's reading list" do
-      user.reading_list = selected_books
-      expect(user.append_list(selected_books)).to eq([
-        { "title" => "Flowers", "authors" => [], "publisher" => "Capstone" }
-      ])
+      expect(user.append_list(first_selection)).to eq(first_selection)
     end
   end
 end

@@ -1,5 +1,11 @@
 module Output
   def stdout(books, type)
+
+    if !books
+      return puts "Search encountered an error. "  +
+      "Please confirm you inputed your API key, and are connected to the internet."
+    end
+
     return puts "#{type} is empty" if books.empty?
 
     puts "#{type}\n-----"

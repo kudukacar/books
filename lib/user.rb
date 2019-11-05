@@ -1,5 +1,10 @@
+require_relative "./output"
+require_relative "./interface"
+
 class User
-  attr_accessor :reading_list
+  attr_reader :reading_list
+
+  include Interface
 
   def initialize
     @reading_list = []
@@ -7,65 +12,65 @@ class User
 
   def query?
     loop do
-      puts "Do you want to search books?  Enter yes or y or no or n."
+      output("Do you want to search books?  Enter yes or y or no or n.")
 
-      answer = $stdin.gets.downcase.strip
+      answer = input.downcase
 
       if answer == "y" || answer == "yes"
         return true
       elsif answer == "n" || answer == "no"
         return false
       else
-        puts "Invalid entry."
+        output("Invalid entry.")
       end
     end
   end
 
   def query
     loop do
-      puts "Please enter a search term."
+      output("Please enter a search term.")
 
-      search_term = $stdin.gets.strip
+      search_term = input
 
       if search_term != ""
         return search_term
       else
-        puts "Invalid entry."
+        output("Invalid entry.")
       end
     end
   end
 
   def add_to_list?
     loop do
-      puts "Do you want to add a book from the search results to your reading list?  Enter yes or y or no or n."
+      output("Do you want to add a book from the search results to your reading list?  Enter yes or y or no or n.")
 
-      answer = $stdin.gets.downcase.strip
+      answer = input.downcase
 
       if answer == "y" || answer == "yes"
         return true
       elsif answer == "n" || answer == "no"
         return false
       else
-        puts "Invalid entry."
+        output("Invalid entry.")
       end
     end
   end
 
   def add_to_list(total_results)
     loop do
-      puts "Enter the book's number (above title) to add a book to your reading list."
+      output("Enter the book's number (above title) to add a book to your reading list.")
       
-      selection = Integer($stdin.gets.chomp) rescue 0
+      selection = Integer(input) rescue 0
 
       if selection.between?(1, total_results)
         return selection
       else
-        puts "Invalid entry."
+        output("Invalid entry.")
       end
     end
   end
 
   def append_list(selected_books)
-    self.reading_list = self.reading_list.concat(selected_books).uniq
+    @reading_list = @reading_list.concat(selected_books).uniq
   end
 end

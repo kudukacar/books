@@ -2,7 +2,7 @@ require "json"
 
 module ProcessData
   def process_books(data)
-    return [] if !data
+    return data if !data
 
     total = JSON.parse(data)["totalItems"]
     return [] if total == 0
